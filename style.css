@@ -1,0 +1,16 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.highlight{
+    color: aqua;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+div img{
+    width: 100%;
+}

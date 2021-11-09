@@ -1,16 +1,78 @@
 body{
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
 }
+
 h1{
     font-size: 50px;
 }
 .highlight{
-    color: aqua;
+    color:#f05010;
 }
 .half-width{
+    margin-right: 2%;
+    margin-left: 5%;
+    padding-left: 2%;
     width: 40%;
+    height: 60%;
     float: left;
 }
 div img{
     width: 100%;
+    height: 100%;
+   
 }
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    
+    height: 500px;
+    margin-bottom: 20px;
+}
+.link_button{
+    text-decoration: none ;
+  
+    background-image: linear-gradient(45deg,orange, red);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:white;
+    font-weight: 700;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    background-color: white;
+    box-shadow: 10px 10px 40px grey;
+    
+   
+
+}
+
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.copyright{
+    text-align: center;
+    color: grey;
+}
+
